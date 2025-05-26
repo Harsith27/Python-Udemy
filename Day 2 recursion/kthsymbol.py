@@ -18,4 +18,3 @@ print( kth_symbol(n , k ))
 
 
 
-
