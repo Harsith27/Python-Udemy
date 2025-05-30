@@ -10,8 +10,7 @@ n=int(input())
 k=int(input())
 arr=[]
 st=0
-for i in range(1,n+1):
-    arr.append(i)
+arr=list(range(1,n+1)) 
 print(josephus(n,k,st,arr))
 sys.exit()
 
